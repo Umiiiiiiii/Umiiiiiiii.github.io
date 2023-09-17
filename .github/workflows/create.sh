@@ -10,7 +10,7 @@ echo $message
 read -p "请输入一个数字：" number
 
 # 判断数字是否大于10
-if [ $number > 10 ]; then
+if ((number > 10)); then
   echo "该数字大于10"
 else
   echo "该数字小于或等于10"
