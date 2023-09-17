@@ -1,3 +1,3 @@
 # Umiiiiiiii.github.io
 
-So the cat was stolen.
+Someone stole the cat.
