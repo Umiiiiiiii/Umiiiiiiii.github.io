@@ -28,17 +28,7 @@ jobs:
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
       - name: Lint Markdown
-        uses: tomwhross/write-good-action@v1.6
-      - name: Post comment
-        uses: mshick/add-pr-comment@v1
-        if: $
-        with:
-            message: |
-            $
-            repo-token: $
-            repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
-            allow-repeats: false # This is the default
-            
+        uses: tomwhross/write-good-action@v1.6  
             
       # Runs a single command using the runners shell
       - name: Run a one-line script
